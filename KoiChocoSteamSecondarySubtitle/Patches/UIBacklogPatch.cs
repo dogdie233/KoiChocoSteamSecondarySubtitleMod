@@ -36,7 +36,7 @@ public class UIBacklogPatch
         {
             var primary = Utils.SplitLangStr(t, EngineMain.lang);
             var secondary = Utils.SplitLangStr(t, SecondaryLanguage.SecLang);
-            uestext = $"<size=20>{primary}</size>\n<size=16>{secondary}</size>";
+            uestext = $"<line-height=70%><size=20>{primary}</size>\n<line-height=60%><size=16>{secondary}</size>";
             return;
         }
         uestext = t;

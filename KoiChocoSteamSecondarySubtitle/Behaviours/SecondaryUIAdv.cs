@@ -82,7 +82,7 @@ public class SecondaryUIAdv : MonoBehaviour
     public void ReinitLangFont()
     {
         _advText.fontSize = 16f;
-        _advText.lineSpacing = 57f;
+        _advText.lineSpacing = 100f;
         _advText.characterSpacing = 0f;
         
         var pos = _advText.transform.localPosition;

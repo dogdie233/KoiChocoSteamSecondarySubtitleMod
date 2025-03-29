@@ -40,7 +40,7 @@ public class UIAdvPatch
         var advText = __instance.advtext;
         advText.fontSize = 20f;
         advText.characterSpacing = 0f;
-        advText.lineSpacing = 34f;
+        advText.lineSpacing = 54f;
         
         var pos = advText.transform.localPosition;
         pos.y = -730;
